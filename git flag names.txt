@@ -1,1 +1,14 @@
-this is sample text
+| Option | Meaning | Example | Use |
+| ------ | --------------------------------------- | ----------------------------- | ----------------------------------------------------- |
+| `-m` | **message** | `git commit -m "Added login"` | Give a commit message |
+| `-M` | **force rename** | `git branch -M main` | Forcefully rename a branch |
+| `-u` | **upstream** | `git push -u origin main` | Set/remember upstream branch |
+| `-v` | **verbose** | `git remote -v` | Show more details |
+| `-b` | **branch** | `git checkout -b feature` | Create and switch to a branch |
+| `-d` | **delete** | `git branch -d feature` | Delete a branch |
+| `-D` | **force delete** | `git branch -D feature` | Forcefully delete a branch |
+| `-a` | **all** | `git add -A` | Stage all changes |
+| `-f` | **force** | `git push -f` | Force an operation |
+| `-n` | **dry run** | `git push -n` | Test/show what would happen without actually doing it |
+| `-r` | **remote branches** | `git branch -r` | Show remote branches |
+| `-R` | **reverse/recursive context-dependent** | varies | Meaning depends on the Git command |
